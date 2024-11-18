@@ -1,0 +1,8 @@
+.checkBox{
+    margin-left: 20px;
+    transform: scale(2);
+}
+
+.checkBox input[type="checkbox"] :checked{
+    background-color: rgb(156, 156, 240);
+}

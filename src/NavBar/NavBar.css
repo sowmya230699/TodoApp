@@ -1,0 +1,25 @@
+.navContainer{
+    top:0;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;;
+    font-size: large;
+    margin-top: 0%;
+    display: flex;
+
+}
+
+a{
+margin: 30px;
+padding: 10px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: #007bff;
+}
+
+a:hover{
+    color: blueviolet;
+}
+

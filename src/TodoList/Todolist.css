@@ -1,0 +1,54 @@
+.inputBox{
+    width:50%;
+    border: 2px solid black;
+    height:30px;
+    border-radius: 5px;
+}
+
+.editBox{
+    width:50%;
+    border: 2px solid black;
+    height:30px;
+    border-radius: 5px;
+
+}
+button{
+  
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    background-color:none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color:rgb(156, 156, 240);
+}
+
+li{
+    font-size: 20px;
+}
+
+.checkBox{
+    margin-left: 20px;
+    transform: scale(2);
+}
+
+.checkBox input[type="checkbox"] :checked{
+    background-color: rgb(156, 156, 240);
+}
+
+
+/* .checkBox input[type="checkbox"]{
+    display: none;
+}
+
+.checkBox input[type="checkbox"] :checked ::before{
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+} */
